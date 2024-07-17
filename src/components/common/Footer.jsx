@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="bg-purple w-full p-4 lg:py-8 ">
       <NewsLetter />
 
-      <div className="md:flex md:justify-evenly">
+      <div className="md:flex md:justify-between">
         {/* logo and description */}
         <div className="mb-6 md:mb-0 lg:w-1/2">
           <Link href="/" className="flex lg:justify-start justify-center">
@@ -29,6 +29,42 @@ const Footer = () => {
           </p>
         </div>
         {/* navlinks and services*/}
+        <div>
+          <h2 className="lg:mb-6 mb-3 ml-3 text-lg text-golden font-semibold uppercase">
+            Terms & Policy
+          </h2>
+          <ul className="font-medium">
+            <li>
+              <Link
+                href="/privacy-policy"
+                className="ml-3 hover:underline text-golden"
+              >
+                Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/term-condition"
+                className="ml-3 hover:underline text-golden"
+              >
+                Term and Condition
+              </Link>
+            </li>
+            <li>
+              <Link href="/refund" className="ml-3 hover:underline text-golden">
+                Refund Policy
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/shiping-and-delivery-timeline"
+                className="ml-3 hover:underline text-golden"
+              >
+                Shipping and Delivery Timeline
+              </Link>
+            </li>
+          </ul>
+        </div>
         {/* navinks */}
         <div>
           <h2 className="lg:mb-6 mb-3 ml-3 text-lg text-golden font-semibold uppercase">
@@ -102,20 +138,13 @@ const Footer = () => {
         </div>
       </div>
       <hr className="my-6 border-white sm:mx-auto  lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm sm:text-center text-golden">
+      <div className="flex items-center justify-center">
+        <span className="text-sm text-center text-golden flex gap-2">
           © 2024{" "}
           <Link href="/" className="hover:underline">
             Tek Booster
           </Link>
           . All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;
-          <Link href="/privacy-policy" className="underline">
-            Privacy Policy
-          </Link>
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <Link href="/shiping-and-delivery-timeline" className="underline">
-            Shipping and Delivery Timeline
-          </Link>
         </span>
       </div>
     </div>

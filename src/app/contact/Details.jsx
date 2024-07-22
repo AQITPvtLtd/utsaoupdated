@@ -8,6 +8,7 @@ const Details = () => {
       </h1>
       <br />
       <p className=" text-justify text-gray-700">
+        We are utsao a unit of AQIT pvt ltd.
         We&apos;re thrilled to hear from you. Whether you have a question about
         our services, need assistance, or want to collaborate, we&apos;re here
         to help. Please feel free to reach out to us using the contact details

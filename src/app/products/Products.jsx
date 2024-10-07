@@ -8,7 +8,7 @@ const Products = () => {
 
   const getProducts = async () => {
     const response = await getAllProducts();
-    const items = response.result;
+    const items = response;
     items.sort((a, b) => a.Sno - b.Sno);
     setProducts(items);
   };

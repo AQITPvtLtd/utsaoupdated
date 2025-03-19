@@ -25,7 +25,8 @@ const ProductDetails = ({ id }) => {
   useEffect(() => {
     getProducts();
   }, []);
-  const matchedObject = products.find((obj) => obj.id === id);
+  const matchedObject = products?.find((obj) => obj.id == id);
+  console.log(matchedObject);
   const data = [];
   if (matchedObject) {
     if (matchedObject.image1) {
@@ -53,40 +54,40 @@ const ProductDetails = ({ id }) => {
       });
     }
   }
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (context?.user) {
-      const id = context?.user?.id;
-      const cart = await fetchCart({ id });
-      const productId = matchedObject.id;
-      const price = matchedObject.price;
-      const image1 = matchedObject.image1;
-      const name = matchedObject.name;
-      const userCart = cart.result;
-      const response = await addToCart({
-        id,
-        productId,
-        userCart,
-        name,
-        quantity,
-        price,
-        image1,
-      });
-      if (response.data.status) {
-        toast.success(response.data.message, {
-          position: "bottom-left",
-        });
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   if (context?.user) {
+  //     const id = context?.user?.id;
+  //     const cart = await fetchCart({ id });
+  //     const productId = matchedObject.id;
+  //     const price = matchedObject.price;
+  //     const image1 = matchedObject.image1;
+  //     const name = matchedObject.name;
+  //     const userCart = cart.result;
+  //     const response = await addToCart({
+  //       id,
+  //       productId,
+  //       userCart,
+  //       name,
+  //       quantity,
+  //       price,
+  //       image1,
+  //     });
+  //     if (response.data.status) {
+  //       toast.success(response.data.message, {
+  //         position: "bottom-left",
+  //       });
 
-        cartContext.setCart((prevCartCount) => prevCartCount + 1);
-      } else {
-        toast.error(response.data.message, {
-          position: "bottom-left",
-        });
-      }
-    } else {
-      router.push("/login");
-    }
-  };
+  //       cartContext.setCart((prevCartCount) => prevCartCount + 1);
+  //     } else {
+  //       toast.error(response.data.message, {
+  //         position: "bottom-left",
+  //       });
+  //     }
+  //   } else {
+  //     router.push("/login");
+  //   }
+  // };
   return (
     <section className="relative z-10 overflow-hidden pb-16 pt-20 md:pb-20 lg:pb-28 lg:pt-[100px] bg-skyblue">
       <div className="container">
@@ -109,14 +110,15 @@ const ProductDetails = ({ id }) => {
                 <div className="pl-5">
                   <h1 className="lg:mt-0 mt-3 font-bold text-2xl text-purple text-center mb-3">
                     {matchedObject?.name}
+                    {console.log(matchedObject?.name)}
                   </h1>
                   <p>{matchedObject?.description}</p>
-                  <div>
+                  {/* <div>
                     <h2 className="font-semibold pt-5">Price</h2>
                     <p className="text-lg">₹ {matchedObject?.price}</p>
-                  </div>
-                  <form onSubmit={handleSubmit}>
-                    {/* quantity */}
+                  </div> */}
+                  {/* <form onSubmit={handleSubmit}>
+                   
                     <div>
                       <h4 className="font-semibold py-3">Quantity:</h4>
                       <div className="border-2 border-black w-fit rounded-lg select-none">
@@ -137,14 +139,14 @@ const ProductDetails = ({ id }) => {
                         </div>
                       </div>
                     </div>
-                    {/* add to cart */}
+                   
                     <button
                       type="submit"
                       className="bg-purple text-white rounded-md p-2 w-full mt-3 hover:opacity-90"
                     >
                       Add to Cart
                     </button>
-                  </form>
+                  </form> */}
                 </div>
               </div>
             </div>

@@ -138,11 +138,9 @@ const Footer = () => {
       <hr className="my-6 border-white sm:mx-auto  lg:my-8" />
       <div className="flex items-center justify-center">
         <span className="text-sm text-center text-golden flex gap-2">
-          © 2024{" "}
-          <Link href="/" className="hover:underline">
-            Tek Booster
+          <Link href='https://tekbooster.com' target='_blank'>
+            Design & Developed By Tek Booster <br className="block md:hidden" /> (Digital Marketing Company)
           </Link>
-          . All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
       </div>
     </div>

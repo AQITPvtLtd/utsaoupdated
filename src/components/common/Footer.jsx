@@ -116,7 +116,7 @@ const Footer = () => {
               className="text-golden flex ml-3 mb-2 mt-4 hover:underline"
             >
               <FaMapLocationDot className="mr-3" />
-              1882, S/F, Bhaskar Bhawan, Kotla Mubarakpur, South Extension I,
+              1882, S/F, Bhaskar Bhawan, Kotla Mubarakpur, <br /> South Extension I,
               South Delhi, Delhi 110003
             </Link>
             <Link

@@ -22,7 +22,8 @@ const Details = () => {
         target="_blank"
         className="hover:underline"
       >
-        Fourth floor, 2E, 4, Jhandewalan Extension, Delhi, 110055
+        1882, S/F, Bhaskar Bhawan, Kotla Mubarakpur, South Extension I,
+          South Delhi, Delhi 110003
       </Link>
       <br />
       <br />

@@ -12,7 +12,8 @@ const page = () => {
 
       <p className="mb-4 text-gray-700">
         The digital assets are owned and maintained by Utsao, having its
-        registered office at  Fourth floor, 2E, 4, Jhandewalan Extension, Delhi, 110055. Utsao reserves the right to make changes
+        registered office at  1882, S/F, Bhaskar Bhawan, Kotla Mubarakpur, South Extension I,
+          South Delhi, Delhi 110003. Utsao reserves the right to make changes
         to terms, conditions and disclaimers at any time and without prior
         information to the customers of the services.
       </p>

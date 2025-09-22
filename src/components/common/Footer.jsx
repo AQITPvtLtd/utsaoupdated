@@ -116,7 +116,8 @@ const Footer = () => {
               className="text-golden flex ml-3 mb-2 mt-4 hover:underline"
             >
               <FaMapLocationDot className="mr-3" />
-              Fourth floor, 2E, 4, Jhandewalan Extension, Delhi, 110055
+              1882, S/F, Bhaskar Bhawan, Kotla Mubarakpur, South Extension I,
+              South Delhi, Delhi 110003
             </Link>
             <Link
               href="tel:+919582930940"

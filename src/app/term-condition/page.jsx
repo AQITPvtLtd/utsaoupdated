@@ -12,8 +12,7 @@ const page = () => {
 
       <p className="mb-4 text-gray-700">
         The digital assets are owned and maintained by Utsao, having its
-        registered office at G-36 First Floor, Connaught Cir, Block G, Connaught
-        Place, New Delhi, Delhi 110001. Utsao reserves the right to make changes
+        registered office at  Fourth floor, 2E, 4, Jhandewalan Extension, Delhi, 110055. Utsao reserves the right to make changes
         to terms, conditions and disclaimers at any time and without prior
         information to the customers of the services.
       </p>
@@ -423,7 +422,7 @@ const page = () => {
       <h1 className="text-3xl font-bold text-center mb-6">Contact</h1>
       <p className="mb-4 text-gray-700">
         If you have any questions you may contact us at no: 9355-480-480 and
-        also write to info@Utsaopharma.com. The Grievance Officer will contact
+        also write to utsaoglobal@gmail.com The Grievance Officer will contact
         you.
       </p>
     </div>

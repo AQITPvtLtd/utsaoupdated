@@ -22,7 +22,7 @@ const Details = () => {
         target="_blank"
         className="hover:underline"
       >
-        G-36, First Floor, Outer circle, Connaught place, New Delhi - 110001
+        Fourth floor, 2E, 4, Jhandewalan Extension, Delhi, 110055
       </Link>
       <br />
       <br />
@@ -33,8 +33,8 @@ const Details = () => {
       <br />
       <br />
       <span className="text-purple text-lg font-semibold">Email: </span>
-      <Link href="mailto: info@utsao.com" className="hover:underline">
-        info@utsao.com
+      <Link href="mailto:utsaoglobal@gmail.com" className="hover:underline">
+        utsaoglobal@gmail.com
       </Link>
     </div>
   );

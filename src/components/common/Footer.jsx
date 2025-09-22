@@ -116,9 +116,7 @@ const Footer = () => {
               className="text-golden flex ml-3 mb-2 mt-4 hover:underline"
             >
               <FaMapLocationDot className="mr-3" />
-              G-36, First Floor, Outer circle,
-              <br /> Connaught place,
-              <br /> New Delhi - 110001
+              Fourth floor, 2E, 4, Jhandewalan Extension, Delhi, 110055
             </Link>
             <Link
               href="tel:+919582930940"
@@ -128,11 +126,11 @@ const Footer = () => {
               +91 9582930940
             </Link>
             <Link
-              href="mailto: info@tekbooster.com"
+              href="mailto: utsaoglobal@gmail.com"
               className="text-golden hover:underline flex ml-3 mb-1"
             >
               <MdEmail className="mr-3 mt-1" />
-              info@tekbooster.com
+              utsaoglobal@gmail.com
             </Link>
           </div>
         </div>

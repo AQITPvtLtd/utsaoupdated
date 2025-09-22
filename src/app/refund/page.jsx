@@ -25,8 +25,8 @@ const page = () => {
             9582-930-940
           </a>{" "}
           or{" "}
-          <a href="mailto:info@tekbooster.com" className="text-blue-500">
-            info@tekbooster.com
+          <a href="mailto:utsaoglobal@gmail.com" className="text-blue-500">
+            utsaoglobal@gmail.com
           </a>
           . We will refund or send a replacement product, depending on your
           preference after necessary verification. The contents of your shipment
@@ -44,8 +44,8 @@ const page = () => {
             9582-930-940
           </a>{" "}
           or{" "}
-          <a href="mailto:info@tekbooster.com" className="text-blue-500">
-            info@tekbooster.com
+          <a href="mailto:utsaoglobal@gmail.com" className="text-blue-500">
+            utsaoglobal@gmail.com
           </a>
           . We will refund or send a replacement product, depending on your
           preference. The contents of your shipment and the original packing
@@ -81,8 +81,8 @@ const page = () => {
             9582-930-940
           </a>{" "}
           or{" "}
-          <a href="mailto:info@tekbooster.com" className="text-blue-500">
-            info@tekbooster.com
+          <a href="mailto:utsaoglobal@gmail.com" className="text-blue-500">
+            utsaoglobal@gmail.com
           </a>{" "}
           to assist you in the cancellation of the order.
         </p>
